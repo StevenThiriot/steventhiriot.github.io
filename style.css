@@ -1,0 +1,117 @@
+html {
+    background-color: #f4f4f3;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+body {
+  margin: 0;
+}
+
+/*top navigation styles*/
+
+.topnav {
+	background-color: #fafafa;
+	overflow: hidden;
+  width: 100%;
+
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #3096d6;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 0.25%;
+}
+
+.topnav a:hover {
+  color: #3083b8;
+}
+
+.topnav img {
+  float: left;
+  width: 50px;
+  padding: 1em;
+  color: #333;
+}
+
+.content {
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  color: #3096d6;
+  text-align: center;
+  padding: 1em;
+}
+
+.skillsimage {
+  width: 90%;
+  padding: 1em;
+}
+
+.skills-text {
+  padding: 1em;
+  float: right;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.image-flex {
+  flex: 1;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.text-flex {
+  flex: 1;
+  flex-direction: column;
+  padding: 1em;
+  margin: 0;
+}
+
+footer {
+  background-color: #fafafa;
+  color: #333;
+  text-align: center;
+  padding: 1em;
+}
+
+.github {
+  width: 5%;
+  padding: 1em;
+}
+
+.github:hover {
+  filter: brightness(0.8);
+}
+
+.myself {
+  width: 30%;
+}
+
+.greetings {
+  padding: 3em;
+  margin: 2%;
+}
+
+.portfolio-flex {
+  flex-direction: column;
+  padding: 2em;
+}
+
+.portfolio-flex img{
+  width: 100%;
+  padding: 1em;
+}
